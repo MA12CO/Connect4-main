@@ -1,0 +1,250 @@
+#headerTitle{
+    text-align: center;
+    justify-content: center;
+}
+
+#resetButton{
+    text-align: center;
+    color: white;
+    background-color: rgb(19, 2, 59);
+    justify-content: center;
+    border-radius: 3px;
+}
+
+#resetButton:hover {
+    transform: scale(1.1)
+}
+
+#resetButton:active {
+    transform: scale(0.9) 
+}
+
+#resetAll{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:red;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+#resetAll:hover {
+    transform: scale(1.1) 
+}
+
+#resetAll:active {
+    transform: scale(0.9) 
+}
+
+#connect4Board{
+    /* position: fixed; */
+    background-color: darkblue;
+    align-items: center;
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+    /* width: 750px;
+    height: 605px; */
+    /* width: 40%; */
+    height: 65%;
+    width:40%;
+    left:30%;
+    right:30%;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.col{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+    border: 5px solid darkblue;
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.row{    
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 30px;
+    /* height: 100px;
+    width: 700px; */
+    /* height: 80px;
+    width: 600px; */
+    height: 16.5%;
+    width: 98%;
+    transition: transform 250ms;
+}
+
+.col:hover{
+    transform: translateY(-5px);
+}
+
+.col:active{
+    transform: translateY(5px);
+}
+
+
+.bodyText{
+    text-align: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+#redName{
+    background-color:red;
+    color: black;
+}
+
+#yellowName{
+    background-color:yellow;
+    color: black;
+}
+
+#playersNames{
+    justify-content: flex-start;
+    background-color:lightgray;
+}
+
+#overlay {
+    position: fixed;
+    display: none; /* Hidden by default */
+    width: 30%; /* Full width (cover the whole page) */
+    height: 20%; /* Full height (cover the whole page) */
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: auto;
+    top: 50%;
+    left:   35%;
+    right: 35%;
+    bottom: 40%;
+    /* line-height: 100px; */
+    background-color: rgba(6, 209, 114, 0.911);; /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    border-radius: 6px;
+    border: 1px solid black;
+  }
+
+#submitButton{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    justify-content: center;
+    border-radius: 3px;
+  }
+
+#submitButton:hover {
+    transform: scale(1.1)
+}
+
+#submitButton:active {
+    transform: scale(0.9) 
+}
+
+#scoresBannerPlace{
+    position: fixed;
+    text-align: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: black;
+    margin: auto;
+    background-color: skyblue;
+    top: 35%;
+    left:10%;
+    bottom: 10%;
+    width: 15%;
+    border-radius: 10px;
+    border: 2px solid darkblue;
+
+  }
+
+  #resetButtonPlace{
+    /* text-align: center;
+    justify-content: center; */
+    position: fixed;
+    text-align: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: auto;
+    top: 80%;
+    left:76%;
+}
+
+#playerNamesField{
+    position: fixed;
+    text-align: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: auto;
+    top: 30%;
+    left:73%;
+}
+
+#playerTurn{
+    height: 4%;
+    width: 40%;
+    /* right: 45%;
+    left:45%; */
+    line-height: 30px;
+    background-color: lightgray;
+    /* position: fixed; */
+    /* flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+    font-family: Helvetica, sans-serif;;
+    margin: auto;
+}
+
+#turnBall{
+    height: 4%;
+    width: 2%;
+    border-radius: 30px;
+    /* flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+#rematch{
+    text-align: center;
+    top:40%;
+    /* height: 5%;*/
+    width: 25%;
+    color: white;
+    background-color: rgb(19, 2, 59);
+    justify-content: center;
+    border-radius: 5px;
+    /* margin: auto; */
+}
+
+#rematch:hover {
+    transform: scale(1.1)
+}
+
+#rematch:active {
+    transform: scale(0.9) 
+}
+
+#exitOverlay{
+    text-align: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+#exitOverlay:hover {
+    transform: scale(1.1) 
+}
+
+#exitOverlay:active {
+    transform: scale(0.9) 
+}
